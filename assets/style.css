@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header.d-absolute {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.site-logo {
+    height: 6rem;
+}
+.main-logos{
+	z-index: 9;
+}
+.content-area{
+	color: #183a68;
+}
+.content-area h2 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+.content-area h3 {
+	font-size: 1.5rem;
+}
+.content-area hr {
+	width: 10rem;
+}
+.btn {
+	color: #183a68;
+	border-color: #183a68;
+	border-radius: 1rem;
+	letter-spacing: 0.05rem;
+    font-weight: 200;
+}
+.content-area button:hover {
+	background-color: #183a68;
+	border-color: #183a68;
+}
+
+
+#bianca-logo img {
+    height: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.sharethis-inline-share-buttons {
+    text-align: center!important;
+}
+
+
+footer{
+	background-color: #1a407a;
+	padding: 2rem 0;
+}
+footer a{
+	color: #FFF;
+	text-decoration: none;
+}
+footer a:hover{
+	text-decoration: underline;
+	color: #FFF;
+}
+.footer-social a {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.footer-social li:last-child a{
+	margin-right: 0;
+}
+
+
+@media (min-width: 768px){
+	.main-logos img.stella{
+		height: 5rem;
+	}
+	.main-logos img.mutluluk{
+		height: 20rem;
+		margin-top: -10rem;
+	}
+}
+
+@media (max-width: 767px){
+	.main-logos img.stella{
+		height: 2rem;
+	}
+	.main-logos img.mutluluk{
+		height: 5rem;
+		margin-top: -5rem;
+	}
+	.navbar-light .navbar-toggler{
+		border: 0;
+		position: relative;
+    	z-index: 9;
+	}
+	#navbarSupportedContent {
+	    background-color: #FFF;
+	    position: absolute;
+	    width: 100%;
+	    left: 0;
+	    top: 0;
+	    padding: 0.5rem;
+	}
+	.content-area h2 {
+	    font-size: 1.2rem;
+	}
+	.content-area h3 {
+	    font-size: 0.9rem;
+	}
+}
